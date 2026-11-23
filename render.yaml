@@ -1,0 +1,28 @@
+# Déploiement Render (Blueprint) : Web Service Node + disque persistant (SQLite + fichiers)
+# Pour plus de robustesse, passez à Render Postgres (voir README).
+services:
+  - type: web
+    name: fomvue
+    runtime: node
+    plan: starter
+    buildCommand: npm ci && npm run build
+    # le disque n'est monté qu'à l'exécution : on synchronise le schéma au démarrage
+    startCommand: npx prisma db push --skip-generate && npm start
+    healthCheckPath: /api/health
+    disk:
+      name: data
+      mountPath: /var/data
+      sizeGB: 5
+    envVars:
+      - key: DATABASE_URL
+        value: file:/var/data/fomvue.db
+      - key: STORAGE_LOCAL_DIR
+        value: /var/data/uploads
+      - key: APP_URL
+        sync: false
+      - key: PAYMENT_PROVIDER
+        value: mock
+      - key: ALLOW_MOCK_PAYMENTS
+        value: "1"
+      - key: MOCK_WEBHOOK_SECRET
+        generateValue: true

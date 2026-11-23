@@ -1,0 +1,268 @@
+// Fomvue — schéma de données
+// Dev : SQLite. Production : changer provider en "postgresql" et DATABASE_URL.
+// Les "enums" sont des chaînes (compatibles SQLite et Postgres) ; valeurs dans src/lib/constants.ts
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String    @id @default(cuid())
+  email        String    @unique
+  name         String
+  passwordHash String
+  role         String    @default("BUYER") // BUYER | CREATOR | ADMIN
+  phone        String?
+  suspended    Boolean   @default(false)
+  createdAt    DateTime  @default(now())
+  sessions     Session[]
+  shop         Shop?
+  orders       Order[]
+  tipsGiven    Tip[]     @relation("TipSender")
+  filmAccess   FilmAccess[]
+  payments     Payment[]
+  progress     LessonProgress[]
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  tokenHash String   @unique
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+}
+
+model Shop {
+  id        String   @id @default(cuid())
+  slug      String   @unique // awa-diop -> awa-diop.fomvue.com
+  name      String
+  tagline   String   @default("")
+  bio       String   @default("")
+  color     String   @default("#2F2A7A")
+  logoKey   String?
+  bannerKey String?
+  level     String   @default("DEBUTANT") // DEBUTANT | CONFIRME
+  city      String   @default("")
+  country   String   @default("Sénégal")
+  flag      String   @default("🇸🇳")
+  ownerId   String   @unique
+  owner     User     @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  products  Product[]
+  films     Film[]
+  tips      Tip[]
+  orders    Order[]
+  ledger    LedgerEntry[]
+  payouts   Payout[]
+}
+
+model Product {
+  id          String    @id @default(cuid())
+  shopId      String
+  shop        Shop      @relation(fields: [shopId], references: [id], onDelete: Cascade)
+  title       String
+  slug        String
+  category    String    // SCENARIOS | IDEES | PROMPTS | SERVICES | FORMATIONS
+  kind        String    // SCENARIO | IDEE | PROMPTS | TEMPLATE | EBOOK | SERVICE | COACHING | FORMATION | LICENCE
+  level       String    @default("DEBUTANT")
+  description String
+  includes    String    @default("") // une ligne = un élément
+  price       Int       // F CFA (XOF), entier
+  coverKey    String?
+  coverColor  String    @default("linear-gradient(160deg,#2f2a7a,#6a65c8)")
+  fileKey     String?   // fichier livré à l'acheteur
+  fileName    String?
+  status      String    @default("PUBLISHED") // DRAFT | PENDING | PUBLISHED | REJECTED
+  featured    Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  lessons     Lesson[]
+  orders      Order[]
+  reviews     Review[]
+  @@unique([shopId, slug])
+}
+
+model Lesson {
+  id         String   @id @default(cuid())
+  productId  String
+  product    Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  section    String   @default("Module 1")
+  title      String
+  content    String   @default("")
+  videoUrl   String?
+  durationMin Int     @default(5)
+  position   Int      @default(0)
+  progress   LessonProgress[]
+}
+
+model LessonProgress {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lessonId  String
+  lesson    Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  doneAt    DateTime @default(now())
+  @@unique([userId, lessonId])
+}
+
+model Review {
+  id        String   @id @default(cuid())
+  productId String
+  product   Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  name      String
+  city      String   @default("")
+  stars     Int
+  text      String
+  createdAt DateTime @default(now())
+}
+
+model Film {
+  id          String    @id @default(cuid())
+  shopId      String
+  shop        Shop      @relation(fields: [shopId], references: [id], onDelete: Cascade)
+  title       String
+  kind        String    // SERIE | FILM | CONTE | TALKSHOW
+  synopsis    String
+  year        Int       @default(2026)
+  ageRating   String    @default("Tous publics")
+  durationLabel String  @default("")
+  poster      String    @default("linear-gradient(160deg,#2f2a7a,#6a65c8)")
+  posterKey   String?
+  videoUrl    String    // URL MP4 ou lien YouTube
+  access      String    @default("FREE") // FREE | PAID
+  buyPrice    Int?
+  rentPrice   Int?
+  views       Int       @default(0)
+  featured    Boolean   @default(false)
+  status      String    @default("PUBLISHED")
+  createdAt   DateTime  @default(now())
+  episodes    Episode[]
+  accesses    FilmAccess[]
+}
+
+model Episode {
+  id         String  @id @default(cuid())
+  filmId     String
+  film       Film    @relation(fields: [filmId], references: [id], onDelete: Cascade)
+  title      String
+  recap      String  @default("")
+  durationMin Int    @default(10)
+  videoUrl   String?
+  position   Int     @default(0)
+}
+
+// ---------- Paiements & grand livre ----------
+
+model Payment {
+  id          String   @id @default(cuid())
+  reference   String   @unique // FMV-XXXX, envoyé au prestataire
+  provider    String   // mock | paydunya | cinetpay
+  providerRef String?
+  method      String   @default("wave") // wave | orange | mtn | moov | carte | crypto
+  purpose     String   // ORDER | TIP | FILM
+  status      String   @default("PENDING") // PENDING | SUCCEEDED | FAILED | CANCELLED
+  amount      Int
+  currency    String   @default("XOF")
+  userId      String?
+  user        User?    @relation(fields: [userId], references: [id])
+  payerPhone  String?
+  payerName   String?
+  // Cible
+  productId   String?
+  filmId      String?
+  filmMode    String?  // BUY | RENT
+  shopId      String?  // pour un soutien
+  tipMessage  String?
+  rawEvent    String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  order       Order?
+  tip         Tip?
+  filmAccess  FilmAccess?
+}
+
+model Order {
+  id          String   @id @default(cuid())
+  number      String   @unique
+  buyerId     String
+  buyer       User     @relation(fields: [buyerId], references: [id])
+  productId   String
+  product     Product  @relation(fields: [productId], references: [id])
+  shopId      String
+  shop        Shop     @relation(fields: [shopId], references: [id])
+  amount      Int
+  commission  Int
+  creatorNet  Int
+  paymentId   String   @unique
+  payment     Payment  @relation(fields: [paymentId], references: [id])
+  createdAt   DateTime @default(now())
+}
+
+model FilmAccess {
+  id         String    @id @default(cuid())
+  userId     String
+  user       User      @relation(fields: [userId], references: [id])
+  filmId     String
+  film       Film      @relation(fields: [filmId], references: [id], onDelete: Cascade)
+  mode       String    // BUY | RENT
+  expiresAt  DateTime? // location 48 h
+  amount     Int
+  commission Int
+  creatorNet Int
+  paymentId  String    @unique
+  payment    Payment   @relation(fields: [paymentId], references: [id])
+  createdAt  DateTime  @default(now())
+}
+
+model Tip {
+  id         String   @id @default(cuid())
+  shopId     String
+  shop       Shop     @relation(fields: [shopId], references: [id])
+  senderId   String?
+  sender     User?    @relation("TipSender", fields: [senderId], references: [id])
+  senderName String   @default("Anonyme")
+  message    String?
+  isPublic   Boolean  @default(true)
+  filmId     String?
+  amount     Int
+  commission Int
+  creatorNet Int
+  paymentId  String   @unique
+  payment    Payment  @relation(fields: [paymentId], references: [id])
+  createdAt  DateTime @default(now())
+}
+
+// Écriture comptable. account = CREATOR (solde d'une boutique) ou PLATFORM (revenus Fomvue).
+// amount signé : + crédit, - débit. Solde boutique = somme des écritures CREATOR de la boutique.
+model LedgerEntry {
+  id        String   @id @default(cuid())
+  account   String   // CREATOR | PLATFORM
+  shopId    String?
+  shop      Shop?    @relation(fields: [shopId], references: [id])
+  type      String   // SALE | FILM | TIP | COMMISSION_SALE | COMMISSION_FILM | COMMISSION_TIP | PAYOUT | PAYOUT_REVERSAL
+  amount    Int
+  paymentId String?
+  payoutId  String?
+  label     String   @default("")
+  createdAt DateTime @default(now())
+  @@index([shopId, account])
+}
+
+model Payout {
+  id        String   @id @default(cuid())
+  shopId    String
+  shop      Shop     @relation(fields: [shopId], references: [id])
+  amount    Int
+  method    String   // wave | orange | mtn | moov | virement
+  phone     String
+  status    String   @default("REQUESTED") // REQUESTED | PAID | REJECTED
+  note      String?
+  createdAt DateTime @default(now())
+  processedAt DateTime?
+}

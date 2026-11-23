@@ -1,0 +1,2191 @@
+{
+ "CREATORS": [
+  {
+   "id": "awa-diop",
+   "name": "Awa Diop",
+   "city": "Dakar",
+   "country": "Sénégal",
+   "flag": "🇸🇳",
+   "level": "confirmé",
+   "specialty": "Talk-shows et présentatrices IA",
+   "bio": "Réalisatrice de formats talk-show inspirés des plateaux dakarois. Elle conçoit des présentatrices IA, des bibles d’émission et des parcours d’interview prêts à produire.",
+   "initials": "AD",
+   "hue": 12,
+   "products": 6,
+   "sales": 1284,
+   "rating": 4.9
+  },
+  {
+   "id": "malik-toure",
+   "name": "Malik Touré",
+   "city": "Bamako",
+   "country": "Mali",
+   "flag": "🇲🇱",
+   "level": "confirmé",
+   "specialty": "Séries dramatiques IA",
+   "bio": "Auteur de mini-séries urbaines. Il vend des bibles de saison, des arcs de personnages et une masterclass pour diriger une série générée par IA.",
+   "initials": "MT",
+   "hue": 200,
+   "products": 4,
+   "sales": 860,
+   "rating": 4.8
+  },
+  {
+   "id": "fatou-bamba",
+   "name": "Fatou Bamba",
+   "city": "Abidjan",
+   "country": "Côte d’Ivoire",
+   "flag": "🇨🇮",
+   "level": "débutant",
+   "specialty": "Prompts et idées de formats",
+   "bio": "Créatrice débutante très active : packs de prompts, sketches courts et banques d’idées pour se lancer sans budget studio.",
+   "initials": "FB",
+   "hue": 32,
+   "products": 5,
+   "sales": 340,
+   "rating": 4.7
+  },
+  {
+   "id": "yves-adjovi",
+   "name": "Yves Adjovi",
+   "city": "Cotonou",
+   "country": "Bénin",
+   "flag": "🇧🇯",
+   "level": "confirmé",
+   "specialty": "Formations et coaching",
+   "bio": "Formateur qui aide les créateurs à passer d’un premier clip à une chaîne rentable. Cours structurés, coaching 1:1 et ateliers vente.",
+   "initials": "YA",
+   "hue": 262,
+   "products": 4,
+   "sales": 1510,
+   "rating": 4.9
+  },
+  {
+   "id": "mariama-sow",
+   "name": "Mariama Sow",
+   "city": "Saint-Louis",
+   "country": "Sénégal",
+   "flag": "🇸🇳",
+   "level": "confirmé",
+   "specialty": "Services sur commande",
+   "bio": "Studio solo : personnages, voix-off et présentatrices IA livrés sur brief, avec révisions incluses. Elle enseigne aussi l’art de faire parler un personnage.",
+   "initials": "MS",
+   "hue": 162,
+   "products": 3,
+   "sales": 420,
+   "rating": 5
+  },
+  {
+   "id": "nadia-elidrissi",
+   "name": "Nadia El Idrissi",
+   "city": "Casablanca",
+   "country": "Maroc",
+   "flag": "🇲🇦",
+   "level": "débutant",
+   "specialty": "Concepts et publicités",
+   "bio": "Stratège créative. Elle vend des concepts de pubs de marque et des formats courts pensés pour les réseaux.",
+   "initials": "NE",
+   "hue": 340,
+   "products": 3,
+   "sales": 190,
+   "rating": 4.6
+  },
+  {
+   "id": "jean-pierre-koffi",
+   "name": "Jean-Pierre Koffi",
+   "city": "Lomé",
+   "country": "Togo",
+   "flag": "🇹🇬",
+   "level": "confirmé",
+   "specialty": "Scénarios long métrage",
+   "bio": "Scénariste. Longs métrages, kits de personnages récurrents et structures narratives pour productions IA.",
+   "initials": "JK",
+   "hue": 22,
+   "products": 4,
+   "sales": 610,
+   "rating": 4.8
+  },
+  {
+   "id": "rama-fall",
+   "name": "Rama Fall",
+   "city": "Thiès",
+   "country": "Sénégal",
+   "flag": "🇸🇳",
+   "level": "débutant",
+   "specialty": "Décors et formats légers",
+   "bio": "Photographe reconvertie dans les décors IA. Templates de lieux sénégalais et petits concepts d’émissions culinaires.",
+   "initials": "RF",
+   "hue": 80,
+   "products": 3,
+   "sales": 154,
+   "rating": 4.5
+  }
+ ],
+ "PRODUCTS": [
+  {
+   "id": "nuit-corniche",
+   "title": "Bible de série « Nuit sur la Corniche »",
+   "kind": "ebook",
+   "cat": "scenarios",
+   "creatorId": "awa-diop",
+   "price": 28000,
+   "niveau": "confirmé",
+   "featured": true,
+   "trending": true,
+   "sales": 186,
+   "rating": 4.9,
+   "reviewsN": 42,
+   "desc": "Une bible complète de 8 épisodes, située sur la corniche de Dakar : personnages, arcs, décors et prompts de plans. Idéale pour lancer une série urbaine en IA.",
+   "includes": [
+    "Bible de 42 pages (PDF)",
+    "Fiches de 8 personnages",
+    "Prompts de décors nuit/jour",
+    "Structure des 8 épisodes"
+   ]
+  },
+  {
+   "id": "pack-persos-corniche",
+   "title": "Pack personnages « Nuit sur la Corniche »",
+   "kind": "template",
+   "cat": "prompts",
+   "creatorId": "awa-diop",
+   "price": 12000,
+   "niveau": "confirmé",
+   "featured": false,
+   "trending": false,
+   "sales": 73,
+   "rating": 4.8,
+   "reviewsN": 16,
+   "desc": "Les visages, tenues et lumières des huit personnages de la série, pour garder la même présence d’un épisode à l’autre.",
+   "includes": [
+    "8 fiches personnages",
+    "Prompts visage et tenue",
+    "Charte lumière nuit/jour",
+    "Check-list de continuité"
+   ]
+  },
+  {
+   "id": "pack-talkshow",
+   "title": "Pack 12 concepts de talk-show IA",
+   "cat": "idees",
+   "creatorId": "awa-diop",
+   "price": 9500,
+   "niveau": "débutant",
+   "featured": true,
+   "trending": true,
+   "sales": 310,
+   "rating": 4.8,
+   "reviewsN": 67,
+   "desc": "Douze formats d’émission prêts à adapter : interviews, débat, chroniques culturelles. Chaque concept inclut un déroulé de 30 minutes et des questions types.",
+   "includes": [
+    "12 fiches concept",
+    "Déroulés 30 min",
+    "Banque de 80 questions",
+    "Conseils de plateau virtuel"
+   ]
+  },
+  {
+   "id": "emission-7j",
+   "title": "Formation : réaliser une émission IA en 7 jours",
+   "cat": "formations",
+   "creatorId": "yves-adjovi",
+   "price": 49000,
+   "niveau": "débutant",
+   "featured": true,
+   "trending": true,
+   "sales": 540,
+   "rating": 4.9,
+   "reviewsN": 128,
+   "courseId": "emission-7j",
+   "desc": "Un parcours guidé pour concevoir, générer, monter et publier une première émission, même sans expérience de réalisation.",
+   "includes": [
+    "7 modules vidéo",
+    "Check-lists quotidiennes",
+    "Modèles de script",
+    "Groupe d’entraide 30 jours"
+   ]
+  },
+  {
+   "id": "presentatrice-sur-mesure",
+   "title": "Présentatrice IA sur mesure",
+   "cat": "services",
+   "creatorId": "mariama-sow",
+   "price": 85000,
+   "niveau": "confirmé",
+   "featured": true,
+   "trending": false,
+   "sales": 64,
+   "rating": 5,
+   "reviewsN": 21,
+   "desc": "Service sur commande : création d’une présentatrice IA à l’image de votre marque, avec 3 looks, une identité vocale et un pack de plans d’ouverture.",
+   "includes": [
+    "Brief + 2 révisions",
+    "3 looks cohérents",
+    "Pack d’ouverture 15 s",
+    "Livraison en 8 jours"
+   ]
+  },
+  {
+   "id": "prompts-cinema",
+   "title": "50 prompts cinéma africain",
+   "cat": "prompts",
+   "creatorId": "fatou-bamba",
+   "price": 6500,
+   "niveau": "débutant",
+   "featured": false,
+   "trending": true,
+   "sales": 402,
+   "rating": 4.7,
+   "reviewsN": 89,
+   "desc": "Une bibliothèque de prompts pour scènes de marché, taxis, plages, concessions et nuits de fête, testés sur plusieurs outils de génération vidéo.",
+   "includes": [
+    "50 prompts commentés",
+    "Variantes jour / nuit",
+    "Guide des styles visuels",
+    "Mises à jour 3 mois"
+   ]
+  },
+  {
+   "id": "baobab-rouge",
+   "title": "Scénario « Le Baobab rouge »",
+   "cat": "scenarios",
+   "creatorId": "jean-pierre-koffi",
+   "price": 35000,
+   "niveau": "confirmé",
+   "featured": true,
+   "trending": false,
+   "sales": 97,
+   "rating": 4.8,
+   "reviewsN": 18,
+   "desc": "Long métrage de 98 pages, conte contemporain entre Lomé et un village de l'intérieur. Structure classique, dialogues soignés, indications pour l’image IA.",
+   "includes": [
+    "Scénario 98 pages",
+    "Note d’intention",
+    "Moodboard textuel",
+    "Liste de plans clés"
+   ]
+  },
+  {
+   "id": "soeurs-plateau",
+   "title": "Mini-série « Les Sœurs de Plateau » — pilote",
+   "cat": "scenarios",
+   "creatorId": "malik-toure",
+   "price": 22000,
+   "niveau": "confirmé",
+   "featured": false,
+   "trending": true,
+   "sales": 155,
+   "rating": 4.8,
+   "reviewsN": 33,
+   "desc": "Concept + pilote d’une mini-série sur trois sœurs à Bamako. Ton chaleureux, humour et secret de famille. Comprend la bible courte de saison 1.",
+   "includes": [
+    "Pilote 28 pages",
+    "Bible saison 1",
+    "Arcs des 3 héroïnes",
+    "Prompts visuels Plateau"
+   ]
+  },
+  {
+   "id": "vendre-creations",
+   "title": "Atelier : vendre ses créations IA",
+   "cat": "formations",
+   "creatorId": "yves-adjovi",
+   "price": 32000,
+   "niveau": "débutant",
+   "featured": false,
+   "trending": true,
+   "sales": 276,
+   "rating": 4.8,
+   "reviewsN": 74,
+   "courseId": "vendre-creations",
+   "desc": "Comment packager un scénario, fixer un prix en F CFA, rédiger une page de vente et démarrer les premières commandes.",
+   "includes": [
+    "4 heures de formation",
+    "Modèles de pages de vente",
+    "Grille de prix",
+    "Script de publication"
+   ]
+  },
+  {
+   "id": "30-pubs",
+   "title": "Banque d’idées : 30 pubs de marque",
+   "cat": "idees",
+   "creatorId": "nadia-elidrissi",
+   "price": 12000,
+   "niveau": "débutant",
+   "featured": false,
+   "trending": false,
+   "sales": 121,
+   "rating": 4.6,
+   "reviewsN": 19,
+   "desc": "Trente concepts de films publicitaires courts pour des marques de mode, boissons, fintech et tourisme, adaptés au marché africain.",
+   "includes": [
+    "30 fiches concept",
+    "Accroches et slogans",
+    "Repères de durée 15/30 s",
+    "Conseils de droits d'image"
+   ]
+  },
+  {
+   "id": "voix-personnage",
+   "title": "Voix-off et personnage IA (service)",
+   "cat": "services",
+   "creatorId": "mariama-sow",
+   "price": 45000,
+   "niveau": "confirmé",
+   "featured": false,
+   "trending": true,
+   "sales": 88,
+   "rating": 4.9,
+   "reviewsN": 27,
+   "desc": "Création d’un personnage récurrent et de sa voix, livré avec 5 répliques types et une charte d'expression.",
+   "includes": [
+    "Personnage + charte",
+    "Voix de référence",
+    "5 répliques",
+    "1 révision incluse"
+   ]
+  },
+  {
+   "id": "decors-dakar",
+   "title": "Pack templates de décors Dakar",
+   "kind": "template",
+   "cat": "prompts",
+   "creatorId": "rama-fall",
+   "price": 8000,
+   "niveau": "débutant",
+   "featured": false,
+   "trending": false,
+   "sales": 143,
+   "rating": 4.5,
+   "reviewsN": 31,
+   "desc": "Décors réutilisables : Médina, Almadies, studio ocre, cour familiale, mer au coucher du soleil. Prêts à injecter dans vos outils.",
+   "includes": [
+    "18 templates de lieux",
+    "Variantes horaires",
+    "Conseils d'éclairage",
+    "Fichier de presets"
+   ]
+  },
+  {
+   "id": "masterclass-serie",
+   "title": "Masterclass : diriger une série IA",
+   "cat": "formations",
+   "creatorId": "malik-toure",
+   "price": 65000,
+   "niveau": "confirmé",
+   "featured": true,
+   "trending": false,
+   "sales": 79,
+   "rating": 4.9,
+   "reviewsN": 22,
+   "courseId": "serie-ia-az",
+   "desc": "De la bible à la cohérence des personnages sur 8 épisodes. Pour créateurs déjà à l'aise avec les outils, qui veulent un rendu sérieux.",
+   "includes": [
+    "6 modules avancés",
+    "Étude de cas saison 1",
+    "Grille de continuité",
+    "Session questions (replay)"
+   ]
+  },
+  {
+   "id": "cinq-sketches",
+   "title": "Cinq sketches prêts à tourner",
+   "cat": "scenarios",
+   "creatorId": "fatou-bamba",
+   "price": 7500,
+   "niveau": "débutant",
+   "featured": false,
+   "trending": false,
+   "sales": 208,
+   "rating": 4.6,
+   "reviewsN": 40,
+   "desc": "Cinq sketches comiques de 90 secondes, dialogues naturels, indications de jeu simples. Parfait pour tester une chaîne.",
+   "includes": [
+    "5 scripts courts",
+    "Découpage plans",
+    "Idées de punchlines visuelles",
+    "Variantes de fin"
+   ]
+  },
+  {
+   "id": "emission-culinaire",
+   "title": "Concept d’émission culinaire IA",
+   "cat": "idees",
+   "creatorId": "rama-fall",
+   "price": 5500,
+   "niveau": "débutant",
+   "featured": false,
+   "trending": false,
+   "sales": 96,
+   "rating": 4.5,
+   "reviewsN": 14,
+   "desc": "Un format chaleureux autour des recettes de famille, avec un déroulé type, une identité visuelle et des idées d'invités.",
+   "includes": [
+    "Fiche concept",
+    "Déroulé 20 min",
+    "Palettes visuelles",
+    "10 idées d’épisodes"
+   ]
+  },
+  {
+   "id": "coaching-youtube",
+   "title": "Coaching 1:1 — lancer sa chaîne YouTube IA",
+   "kind": "coaching",
+   "cat": "services",
+   "creatorId": "yves-adjovi",
+   "price": 70000,
+   "niveau": "confirmé",
+   "featured": false,
+   "trending": false,
+   "sales": 47,
+   "rating": 5,
+   "reviewsN": 16,
+   "desc": "Deux séances de 60 minutes + un plan d’action de 30 jours pour positionner une chaîne, choisir un format et publier les trois premiers épisodes.",
+   "includes": [
+    "2 séances visio",
+    "Plan 30 jours",
+    "Relecture d’un script",
+    "Suivi WhatsApp 2 semaines"
+   ]
+  },
+  {
+   "id": "kit-personnages",
+   "title": "Kit prompts personnages récurrents",
+   "cat": "prompts",
+   "creatorId": "jean-pierre-koffi",
+   "price": 11000,
+   "niveau": "confirmé",
+   "featured": false,
+   "trending": true,
+   "sales": 134,
+   "rating": 4.8,
+   "reviewsN": 29,
+   "desc": "Une méthode et 40 prompts pour garder le même visage, les mêmes tenues et la même lumière d’un épisode à l'autre.",
+   "includes": [
+    "40 prompts de continuité",
+    "Fiches costume",
+    "Check-list de cohérence",
+    "Exemples avant/après"
+   ]
+  },
+  {
+   "id": "guide-talkshow",
+   "title": "Ebook : lancer un talk-show IA",
+   "cat": "idees",
+   "creatorId": "awa-diop",
+   "price": 8500,
+   "niveau": "débutant",
+   "kind": "ebook",
+   "featured": false,
+   "trending": true,
+   "sales": 214,
+   "rating": 4.7,
+   "reviewsN": 38,
+   "desc": "Un guide pratique de 64 pages pour concevoir, produire et publier un talk-show généré par IA, avec des exemples inspirés des plateaux dakarois.",
+   "includes": [
+    "Ebook PDF 64 pages",
+    "Check-list de lancement",
+    "Modèle de déroulé",
+    "Accès à vie"
+   ]
+  },
+  {
+   "id": "licence-personnages",
+   "title": "Licence commerciale — personnages récurrents",
+   "cat": "prompts",
+   "creatorId": "jean-pierre-koffi",
+   "price": 45000,
+   "niveau": "confirmé",
+   "kind": "licence",
+   "featured": false,
+   "trending": false,
+   "sales": 41,
+   "rating": 4.8,
+   "reviewsN": 9,
+   "desc": "Licence pour utiliser le kit de personnages récurrents dans des projets commerciaux (pubs, séries, commandes clients), avec une durée d’un an renouvelable.",
+   "includes": [
+    "Licence 12 mois",
+    "Attestation PDF",
+    "Usage commercial défini",
+    "Renouvellement simple"
+   ]
+  }
+ ],
+ "TITLES": [
+  {
+   "id": "nuit-corniche-serie",
+   "title": "Nuit sur la Corniche",
+   "kind": "serie",
+   "creatorId": "awa-diop",
+   "year": 2026,
+   "age": "12+",
+   "durationLabel": "8 épisodes · 28 min",
+   "logline": "Trois destins se croisent sur la corniche de Dakar, entre secrets de famille et nuits sans sommeil.",
+   "synopsis": "Une série urbaine générée par IA : Aïssatou, Khalil et Ndeye tentent de reconstruire leurs vies au bord de l’océan. Chaque épisode avance un secret, une lumière, un refrain. Conçue à Dakar, pensée pour être vue en F CFA — à l’achat ou en location 48 h.",
+   "access": "payant",
+   "buyPrice": 4900,
+   "rentPrice": 1500,
+   "featured": true,
+   "isNew": true,
+   "views": 21340,
+   "salesBuy": 186,
+   "salesRent": 94,
+   "relatedIds": [
+    "nuit-corniche",
+    "talkshow-ia",
+    "pack-persos-corniche"
+   ],
+   "poster": "linear-gradient(160deg,#7a2e1f 0%,#c45a2a 55%,#1b1511 100%)",
+   "episodes": [
+    {
+     "id": "e1",
+     "title": "Les lumières de la Corniche",
+     "min": 28,
+     "recap": "Aïssatou rentre à Dakar après trois ans. Un message l’attend au port."
+    },
+    {
+     "id": "e2",
+     "title": "Le banc de minuit",
+     "min": 27,
+     "recap": "Khalil refuse de parler, jusqu’à ce qu’une présentatrice IA relance l’affaire."
+    },
+    {
+     "id": "e3",
+     "title": "Vent de l’île",
+     "min": 29,
+     "recap": "Ndeye retrouve une amie d’enfance, et un secret trop lourd pour Gorée."
+    },
+    {
+     "id": "e4",
+     "title": "Les clés du studio",
+     "min": 26,
+     "recap": "Un plateau de talk-show devient le théâtre d’un aveu public."
+    },
+    {
+     "id": "e5",
+     "title": "Marée basse",
+     "min": 28,
+     "recap": "Les trois destins se lient autour d’une cassette jamais écoutée."
+    },
+    {
+     "id": "e6",
+     "title": "La voix de Yaay",
+     "min": 30,
+     "recap": "Une voix familière revient dans les générations d’images — trop familière."
+    },
+    {
+     "id": "e7",
+     "title": "Promesse sur le quai",
+     "min": 28,
+     "recap": "Il faut choisir : tout dire, ou protéger la famille."
+    },
+    {
+     "id": "e8",
+     "title": "Dernière lumière",
+     "min": 32,
+     "recap": "La saison se ferme sur la Corniche, entre pardon et nouveau départ."
+    }
+   ]
+  },
+  {
+   "id": "soeurs-plateau-serie",
+   "title": "Les Sœurs de Plateau",
+   "kind": "serie",
+   "creatorId": "malik-toure",
+   "year": 2026,
+   "age": "12+",
+   "durationLabel": "6 épisodes · 26 min",
+   "logline": "Trois sœurs à Bamako, un secret de famille, et une maison trop petite pour tant de vérités.",
+   "synopsis": "Mini-série chaleureuse et tranchante : Fatoumata, Amina et Oumou se retrouvent sous le même toit après le départ de leur père. L’IA sert le rythme d’une comédie dramatique urbaine, sans jamais remplacer l’écriture.",
+   "access": "payant",
+   "buyPrice": 3500,
+   "rentPrice": 1000,
+   "isNew": true,
+   "views": 18420,
+   "salesBuy": 142,
+   "salesRent": 77,
+   "relatedIds": [
+    "soeurs-plateau",
+    "masterclass-serie"
+   ],
+   "poster": "linear-gradient(160deg,#5b2a12 0%,#c47a2a 60%,#2a1810 100%)",
+   "episodes": [
+    {
+     "id": "e1",
+     "title": "La clé sous le paillasson",
+     "min": 26,
+     "recap": "Le pilote : les trois sœurs rouvrent la maison de Plateau."
+    },
+    {
+     "id": "e2",
+     "title": "Le couscous trop salé",
+     "min": 25,
+     "recap": "Une dispute de cuisine révèle une dette cachée."
+    },
+    {
+     "id": "e3",
+     "title": "La robe de maman",
+     "min": 27,
+     "recap": "Amina trouve une lettre dans une couture."
+    },
+    {
+     "id": "e4",
+     "title": "Invité surprise",
+     "min": 24,
+     "recap": "Un cousin de Kayes débarque avec trop de questions."
+    },
+    {
+     "id": "e5",
+     "title": "Nuit de veillée",
+     "min": 26,
+     "recap": "Les langues se délient, enfin."
+    },
+    {
+     "id": "e6",
+     "title": "La cour est ouverte",
+     "min": 28,
+     "recap": "Une fête de fin de saison, et un nouveau secret."
+    }
+   ]
+  },
+  {
+   "id": "au-bout-du-quai",
+   "title": "Au bout du quai",
+   "kind": "serie",
+   "creatorId": "malik-toure",
+   "year": 2025,
+   "age": "16+",
+   "durationLabel": "5 épisodes · 30 min",
+   "logline": "Un docker de Bamako et une journaliste enquêtent sur une disparition au port.",
+   "synopsis": "Série noire générée par IA, sobre et tendue. Les plans de nuit, les silences, et une enquête qui remonte une filière de fausses identités.",
+   "access": "payant",
+   "buyPrice": 3900,
+   "rentPrice": 1200,
+   "views": 9730,
+   "salesBuy": 61,
+   "salesRent": 40,
+   "relatedIds": [
+    "soeurs-plateau",
+    "masterclass-serie"
+   ],
+   "poster": "linear-gradient(165deg,#122033 0%,#2a4a6b 50%,#0b1320 100%)",
+   "episodes": [
+    {
+     "id": "e1",
+     "title": "Conteneur 18",
+     "min": 30,
+     "recap": "Un quai, une chaussure, pas de témoin."
+    },
+    {
+     "id": "e2",
+     "title": "Les noms qui changent",
+     "min": 29,
+     "recap": "Les papiers ne correspondent à personne."
+    },
+    {
+     "id": "e3",
+     "title": "La voix dans le talkie",
+     "min": 31,
+     "recap": "Une fréquence interdite."
+    },
+    {
+     "id": "e4",
+     "title": "Rive gauche",
+     "min": 28,
+     "recap": "L’enquête quitte le port."
+    },
+    {
+     "id": "e5",
+     "title": "Marée d’huile",
+     "min": 32,
+     "recap": "La vérité a un prix."
+    }
+   ]
+  },
+  {
+   "id": "radio-medina",
+   "title": "Radio Médina",
+   "kind": "serie",
+   "creatorId": "fatou-bamba",
+   "year": 2026,
+   "age": "Tous publics",
+   "durationLabel": "4 épisodes · 18 min",
+   "logline": "Une radio de quartier à Abidjan, des animateurs IA, et des auditeurs bien réels.",
+   "synopsis": "Comédie légère : une jeune créatrice lance une radio avec des voix générées. Les voisins s’en mêlent, les jingles déraillent, le quartier finit par s’aimer à l’antenne.",
+   "access": "gratuit",
+   "isNew": true,
+   "views": 31200,
+   "salesBuy": 0,
+   "salesRent": 0,
+   "relatedIds": [
+    "cinq-sketches",
+    "prompts-video"
+   ],
+   "poster": "linear-gradient(160deg,#7a1f3a 0%,#d45a2a 60%,#3a1020 100%)",
+   "episodes": [
+    {
+     "id": "e1",
+     "title": "Premier direct",
+     "min": 18,
+     "recap": "Le micro s’ouvre, le quartier retient son souffle."
+    },
+    {
+     "id": "e2",
+     "title": "Le jingle maudit",
+     "min": 17,
+     "recap": "Une ritournelle impossible à arrêter."
+    },
+    {
+     "id": "e3",
+     "title": "Invitée surprise",
+     "min": 19,
+     "recap": "La tante débarque à l’antenne."
+    },
+    {
+     "id": "e4",
+     "title": "On reste à l’écoute",
+     "min": 20,
+     "recap": "La radio trouve sa voix."
+    }
+   ]
+  },
+  {
+   "id": "baobab-rouge-film",
+   "title": "Le Baobab rouge",
+   "kind": "film",
+   "creatorId": "jean-pierre-koffi",
+   "year": 2026,
+   "age": "12+",
+   "durationLabel": "1 h 38",
+   "logline": "Un conte contemporain entre Lomé et un village de l’intérieur, sous un baobab qui se souvient.",
+   "synopsis": "Long métrage IA d’après le scénario du même nom : un fils revient au pays pour un enterrement, et découvre que l’arbre familial garde les paroles que personne n’a osé dire.",
+   "access": "payant",
+   "buyPrice": 2500,
+   "rentPrice": 800,
+   "isNew": true,
+   "views": 15480,
+   "salesBuy": 97,
+   "salesRent": 64,
+   "relatedIds": [
+    "baobab-rouge",
+    "kit-personnages"
+   ],
+   "poster": "linear-gradient(165deg,#5a1a10 0%,#b85a1a 45%,#2a120c 100%)",
+   "episodes": []
+  },
+  {
+   "id": "harmattan-bleu",
+   "title": "Harmattan bleu",
+   "kind": "film",
+   "creatorId": "jean-pierre-koffi",
+   "year": 2025,
+   "age": "12+",
+   "durationLabel": "1 h 24",
+   "logline": "Deux frères traversent le Sahel pour ramener une partition oubliée.",
+   "synopsis": "Film de route en images IA : poussière, radio, silences. Un road-movie musical, calme et lumineux, entre Cotonou et un village du nord.",
+   "access": "payant",
+   "buyPrice": 2200,
+   "rentPrice": 700,
+   "views": 8210,
+   "salesBuy": 44,
+   "salesRent": 31,
+   "relatedIds": [
+    "baobab-rouge",
+    "kit-personnages"
+   ],
+   "poster": "linear-gradient(160deg,#1a3344 0%,#4a7a8a 55%,#0e1a22 100%)",
+   "episodes": []
+  },
+  {
+   "id": "pirogue-dor",
+   "title": "La pirogue d’or",
+   "kind": "film",
+   "creatorId": "nadia-elidrissi",
+   "year": 2026,
+   "age": "Tous publics",
+   "durationLabel": "1 h 12",
+   "logline": "Une publicitaire de Casablanca hérite d’une pirogue, et d’une promesse faite à la mer.",
+   "synopsis": "Film poétique, presque un conte : entre atelier de pub et côte atlantique, une femme apprend à filmer autrement. Idéal pour se faire une idée du cinéma IA francophone.",
+   "access": "payant",
+   "buyPrice": 1900,
+   "rentPrice": 600,
+   "isNew": true,
+   "views": 6400,
+   "salesBuy": 28,
+   "salesRent": 19,
+   "relatedIds": [],
+   "poster": "linear-gradient(160deg,#0f3a4a 0%,#e0a15a 50%,#1a2430 100%)",
+   "episodes": []
+  },
+  {
+   "id": "marche-colobane",
+   "title": "Le marché de Colobane",
+   "kind": "film",
+   "creatorId": "fatou-bamba",
+   "year": 2026,
+   "age": "Tous publics",
+   "durationLabel": "22 min",
+   "logline": "Un court métrage gratuit, tourné (presque) au milieu des étals, pour se faire découvrir.",
+   "synopsis": "Fatou offre ce court en accès libre : un jeune vendeur de téléphones trouve un scénario dans un tiroir, et décide de le tourner en IA avant la tombée de la nuit.",
+   "access": "gratuit",
+   "isNew": true,
+   "views": 45800,
+   "salesBuy": 0,
+   "salesRent": 0,
+   "relatedIds": [
+    "cinq-sketches"
+   ],
+   "poster": "linear-gradient(160deg,#8a3a12 0%,#e09a3a 58%,#3a1a0c 100%)",
+   "episodes": []
+  },
+  {
+   "id": "enfant-baobab-parleur",
+   "title": "L’enfant et le baobab parleur",
+   "kind": "conte",
+   "creatorId": "rama-fall",
+   "year": 2026,
+   "age": "Tous publics",
+   "durationLabel": "18 min",
+   "logline": "Un enfant de Thiès découvre qu’un baobab connaît le prénom de tous les vents.",
+   "synopsis": "Conte africain en images IA, offert gratuitement pour les familles. Une histoire simple, une palette chaude, une morale douce sur l’écoute.",
+   "access": "gratuit",
+   "views": 67200,
+   "salesBuy": 0,
+   "salesRent": 0,
+   "relatedIds": [
+    "decors-dakar"
+   ],
+   "poster": "linear-gradient(160deg,#2a5a1a 0%,#c4a02a 55%,#1a2a10 100%)",
+   "episodes": []
+  },
+  {
+   "id": "fille-et-le-vent",
+   "title": "La fille et le vent",
+   "kind": "conte",
+   "creatorId": "rama-fall",
+   "year": 2026,
+   "age": "Tous publics",
+   "durationLabel": "24 min",
+   "logline": "Une tisseuse apprend à capturer le harmattan dans un pagne, sans l’enfermer.",
+   "synopsis": "Conte visuel, plus contemplatif. Version payante : la créatrice y a mis plus de plans, une voix-off soignée, et un générique illustré.",
+   "access": "payant",
+   "buyPrice": 1500,
+   "rentPrice": 500,
+   "isNew": true,
+   "views": 7340,
+   "salesBuy": 39,
+   "salesRent": 22,
+   "relatedIds": [
+    "decors-dakar"
+   ],
+   "poster": "linear-gradient(160deg,#4a2a6a 0%,#d48a5a 58%,#1a1020 100%)",
+   "episodes": []
+  },
+  {
+   "id": "trois-kola",
+   "title": "Les trois kola",
+   "kind": "conte",
+   "creatorId": "fatou-bamba",
+   "year": 2025,
+   "age": "Tous publics",
+   "durationLabel": "16 min",
+   "logline": "Trois noix de kola, trois vœux, et une grand-mère qui n’a jamais cru aux raccourcis.",
+   "synopsis": "Petit conte gratuit, idéal pour une pause. Les personnages sont stables, les décors chaleureux, le punchline arrive à temps.",
+   "access": "gratuit",
+   "views": 28900,
+   "salesBuy": 0,
+   "salesRent": 0,
+   "relatedIds": [
+    "cinq-sketches"
+   ],
+   "poster": "linear-gradient(160deg,#6a2010 0%,#d46a2a 55%,#2a1008 100%)",
+   "episodes": []
+  },
+  {
+   "id": "cafe-teranga",
+   "title": "Café Téranga",
+   "kind": "talkshow",
+   "creatorId": "awa-diop",
+   "year": 2026,
+   "age": "Tous publics",
+   "durationLabel": "12 épisodes · 24 min",
+   "logline": "Un talk-show matinal, offert pour se faire découvrir : invités, thé à la menthe, et questions qui durent.",
+   "synopsis": "Awa publie Café Téranga en accès libre. Le public découvre sa présentatrice IA, son rythme dakarois, et — s’il aime — peut ensuite acheter ses packs et sa série.",
+   "access": "gratuit",
+   "isNew": true,
+   "views": 84200,
+   "salesBuy": 0,
+   "salesRent": 0,
+   "relatedIds": [
+    "pack-talkshow",
+    "guide-talkshow",
+    "talkshow-ia"
+   ],
+   "poster": "linear-gradient(160deg,#2f2a7a 0%,#c45a2a 60%,#16141f 100%)",
+   "episodes": [
+    {
+     "id": "e1",
+     "title": "Bienvenue à table",
+     "min": 24,
+     "recap": "Le premier café, les premières questions."
+    },
+    {
+     "id": "e2",
+     "title": "La voix qui porte",
+     "min": 23,
+     "recap": "Une invitée chanteuse et un micro capricieux."
+    },
+    {
+     "id": "e3",
+     "title": "Parler d’argent sans rougir",
+     "min": 25,
+     "recap": "Prix, Wave, et ce qu’on ose dire à voix haute."
+    },
+    {
+     "id": "e4",
+     "title": "Les filles du plateau",
+     "min": 24,
+     "recap": "Retour sur une génération de présentatrices."
+    }
+   ]
+  },
+  {
+   "id": "plateau-22h",
+   "title": "Plateau 22 heures",
+   "kind": "talkshow",
+   "creatorId": "awa-diop",
+   "year": 2026,
+   "age": "12+",
+   "durationLabel": "8 épisodes · 32 min",
+   "logline": "Le talk-show du soir : débats plus longs, lumières plus basses, questions plus nettes.",
+   "synopsis": "Version payante du savoir-faire d’Awa : un plateau nocturne, des invités fictionnels, une conduite d’antenne impeccable. Pour celles et ceux qui veulent voir le format abouti.",
+   "access": "payant",
+   "buyPrice": 2000,
+   "rentPrice": 700,
+   "views": 9100,
+   "salesBuy": 58,
+   "salesRent": 41,
+   "relatedIds": [
+    "pack-talkshow",
+    "guide-talkshow",
+    "talkshow-ia"
+   ],
+   "poster": "linear-gradient(165deg,#12101c 0%,#3b2d6b 50%,#c45a2a 100%)",
+   "episodes": [
+    {
+     "id": "e1",
+     "title": "On allume les projecteurs",
+     "min": 32,
+     "recap": "Ouverture de saison, générique et première invitée."
+    },
+    {
+     "id": "e2",
+     "title": "Ce que l’IA ne dit pas",
+     "min": 31,
+     "recap": "Un débat sur l’écriture et la machine."
+    },
+    {
+     "id": "e3",
+     "title": "Argent, image, respect",
+     "min": 34,
+     "recap": "Monétiser sans se trahir."
+    },
+    {
+     "id": "e4",
+     "title": "Invité mystère",
+     "min": 30,
+     "recap": "Une voix connue, un visage nouveau."
+    }
+   ]
+  },
+  {
+   "id": "voix-de-cotonou",
+   "title": "Voix de Cotonou",
+   "kind": "talkshow",
+   "creatorId": "yves-adjovi",
+   "year": 2026,
+   "age": "Tous publics",
+   "durationLabel": "6 épisodes · 20 min",
+   "logline": "Des créateurs du Bénin racontent comment ils ont vendu leur première offre.",
+   "synopsis": "Talk-show gratuit, pédagogique, tourné comme une conversation. Yves y invite des profils débutants et confirmés — pour se faire connaître, et pour donner envie de se former.",
+   "access": "gratuit",
+   "views": 19800,
+   "salesBuy": 0,
+   "salesRent": 0,
+   "relatedIds": [
+    "vendre-creations",
+    "emission-7j"
+   ],
+   "poster": "linear-gradient(160deg,#0a5c4d 0%,#3b2d6b 60%,#12211c 100%)",
+   "episodes": [
+    {
+     "id": "e1",
+     "title": "La première vente",
+     "min": 20,
+     "recap": "Le trac, le prix, le Wave."
+    },
+    {
+     "id": "e2",
+     "title": "Montrer sans tout donner",
+     "min": 19,
+     "recap": "Ce qu’on met en gratuit, ce qu’on vend."
+    },
+    {
+     "id": "e3",
+     "title": "Tenir six mois",
+     "min": 21,
+     "recap": "La régularité avant la viralité."
+    }
+   ]
+  },
+  {
+   "id": "salon-des-rives",
+   "title": "Le salon des rives",
+   "kind": "talkshow",
+   "creatorId": "mariama-sow",
+   "year": 2025,
+   "age": "Tous publics",
+   "durationLabel": "5 épisodes · 22 min",
+   "logline": "Autour d’un canapé à Saint-Louis, on parle voix, personnages, et présence.",
+   "synopsis": "Talk-show intimiste et payant, centré sur le jeu des personnages IA. Mariama y dévoile sa méthode, sans remplacer ses formations ni ses services sur commande.",
+   "access": "payant",
+   "buyPrice": 1800,
+   "rentPrice": 600,
+   "views": 5400,
+   "salesBuy": 21,
+   "salesRent": 16,
+   "relatedIds": [
+    "parler-personnage",
+    "voix-personnage"
+   ],
+   "poster": "linear-gradient(160deg,#0c4a42 0%,#1ea37f 50%,#12211c 100%)",
+   "episodes": [
+    {
+     "id": "e1",
+     "title": "Une présence, pas un masque",
+     "min": 22,
+     "recap": "Ce qui fait vivre un personnage."
+    },
+    {
+     "id": "e2",
+     "title": "La voix avant le visage",
+     "min": 21,
+     "recap": "Choisir un timbre qui tient."
+    },
+    {
+     "id": "e3",
+     "title": "Regards et silences",
+     "min": 23,
+     "recap": "Le jeu entre les répliques."
+    }
+   ]
+  }
+ ],
+ "REVIEWS": {
+  "nuit-corniche": [
+   {
+    "name": "Khady M.",
+    "city": "Dakar",
+    "stars": 5,
+    "text": "La bible est très claire. J’ai pu générer les 3 premiers épisodes en maintenant le même ton."
+   },
+   {
+    "name": "Lamine D.",
+    "city": "Abidjan",
+    "stars": 5,
+    "text": "Les prompts de décors nuit sont bluffants. Un vrai gain de temps."
+   },
+   {
+    "name": "Inès K.",
+    "city": "Cotonou",
+    "stars": 4,
+    "text": "Solide. J’aurais aimé un peu plus de variantes comiques, mais le pilote est déjà fort."
+   }
+  ],
+  "emission-7j": [
+   {
+    "name": "Serge T.",
+    "city": "Lomé",
+    "stars": 5,
+    "text": "J’ai publié mon premier épisode le 7e jour, comme promis. Pédagogie impeccable."
+   },
+   {
+    "name": "Aïcha B.",
+    "city": "Ouagadougou",
+    "stars": 5,
+    "text": "Enfin une formation qui parle de nos outils et de nos contraintes de connexion."
+   }
+  ],
+  "prompts-cinema": [
+   {
+    "name": "Moussa R.",
+    "city": "Bamako",
+    "stars": 5,
+    "text": "Les scènes de marché sont justes. Plus besoin de tout inventer."
+   },
+   {
+    "name": "Léa C.",
+    "city": "Dakar",
+    "stars": 4,
+    "text": "Très bon rapport qualité-prix. Quelques prompts à adapter selon l'outil."
+   }
+  ]
+ },
+ "DEFAULT_REVIEWS": [
+  {
+   "name": "Aminata S.",
+   "city": "Dakar",
+   "stars": 5,
+   "text": "Livraison claire, contenu utile tout de suite. Je recommande."
+  },
+  {
+   "name": "Omar K.",
+   "city": "Abidjan",
+   "stars": 4,
+   "text": "Bon travail, quelques ajustements selon mon outil de génération, mais la base est solide."
+  }
+ ],
+ "COURSES": [
+  {
+   "id": "serie-ia-az",
+   "title": "Créer une série IA de A à Z",
+   "subtitle": "De la bible à la publication d’une saison de 8 épisodes, avec une vraie continuité des personnages.",
+   "creatorId": "malik-toure",
+   "price": 65000,
+   "niveau": "confirmé",
+   "rating": 4.9,
+   "reviewsN": 214,
+   "students": 1240,
+   "hoursLabel": "8 h 20",
+   "lang": "Français",
+   "learn": [
+    "Écrire une bible de saison claire et jouable en IA",
+    "Garder le même visage, costume et lumière d’un épisode à l'autre",
+    "Structurer 8 épisodes sans perdre le rythme",
+    "Générer des plans cinéma à partir d’un script",
+    "Monter une bande-annonce et un générique cohérents",
+    "Publier une saison et fidéliser un public"
+   ],
+   "reviews": [
+    {
+     "name": "Pape S.",
+     "city": "Dakar",
+     "stars": 5,
+     "text": "La partie continuité des personnages m'a sauvé. Ma saison 1 a enfin l'air d’une série, pas d’un patchwork."
+    },
+    {
+     "name": "Mariam C.",
+     "city": "Bamako",
+     "stars": 5,
+     "text": "Exigeant, mais Malik explique comme un chef de projet. Les grilles de travail sont précieuses."
+    },
+    {
+     "name": "Noah A.",
+     "city": "Abidjan",
+     "stars": 4,
+     "text": "Très complet. Prévoyez du temps pour les exercices pratiques."
+    }
+   ],
+   "sections": [
+    {
+     "title": "Vision et bible",
+     "lessons": [
+      {
+       "id": "s1l1",
+       "title": "Pourquoi une série, pas une vidéo unique",
+       "min": 12
+      },
+      {
+       "id": "s1l2",
+       "title": "Trouver le conflit central",
+       "min": 18
+      },
+      {
+       "id": "s1l3",
+       "title": "Écrire la bible en 8 pages",
+       "min": 24
+      },
+      {
+       "id": "s1l4",
+       "title": "Étude : une corniche, trois destins",
+       "min": 16
+      }
+     ]
+    },
+    {
+     "title": "Personnages et continuité",
+     "lessons": [
+      {
+       "id": "s2l1",
+       "title": "Fiches personnages qui tiennent la route",
+       "min": 20
+      },
+      {
+       "id": "s2l2",
+       "title": "Prompts de visage et de tenue",
+       "min": 22
+      },
+      {
+       "id": "s2l3",
+       "title": "Lumière, objectif, palette",
+       "min": 18
+      },
+      {
+       "id": "s2l4",
+       "title": "Atelier : une même héroïne, 6 plans",
+       "min": 26
+      },
+      {
+       "id": "s2l5",
+       "title": "Erreurs fréquentes de dérive visuelle",
+       "min": 14
+      }
+     ]
+    },
+    {
+     "title": "Écrire le pilote",
+     "lessons": [
+      {
+       "id": "s3l1",
+       "title": "Structure en 3 actes, version courte",
+       "min": 20
+      },
+      {
+       "id": "s3l2",
+       "title": "Dialogues naturels en français d’Afrique",
+       "min": 22
+      },
+      {
+       "id": "s3l3",
+       "title": "Découpage technique pour l’IA",
+       "min": 25
+      },
+      {
+       "id": "s3l4",
+       "title": "Corriger un pilote trop chargé",
+       "min": 15
+      }
+     ]
+    },
+    {
+     "title": "Générer l’image et la vidéo",
+     "lessons": [
+      {
+       "id": "s4l1",
+       "title": "Choisir sa chaîne d'outils",
+       "min": 14
+      },
+      {
+       "id": "s4l2",
+       "title": "Du texte au storyboard",
+       "min": 20
+      },
+      {
+       "id": "s4l3",
+       "title": "Plans, échelles, mouvements",
+       "min": 22
+      },
+      {
+       "id": "s4l4",
+       "title": "Voix, silence et musique",
+       "min": 18
+      },
+      {
+       "id": "s4l5",
+       "title": "Raccorder les plans",
+       "min": 24
+      },
+      {
+       "id": "s4l6",
+       "title": "Contrôle qualité d’un épisode",
+       "min": 16
+      }
+     ]
+    },
+    {
+     "title": "Rythme d’une saison",
+     "lessons": [
+      {
+       "id": "s5l1",
+       "title": "Arcs sur 8 épisodes",
+       "min": 20
+      },
+      {
+       "id": "s5l2",
+       "title": "Cliffhangers qui respectent le public",
+       "min": 14
+      },
+      {
+       "id": "s5l3",
+       "title": "Générique et identité sonore",
+       "min": 16
+      },
+      {
+       "id": "s5l4",
+       "title": "Bande-annonce de saison",
+       "min": 18
+      }
+     ]
+    },
+    {
+     "title": "Publier et fidéliser",
+     "lessons": [
+      {
+       "id": "s6l1",
+       "title": "YouTube, calendrier, miniatures",
+       "min": 16
+      },
+      {
+       "id": "s6l2",
+       "title": "Communauté et retours spectateurs",
+       "min": 14
+      },
+      {
+       "id": "s6l3",
+       "title": "Préparer une saison 2",
+       "min": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "parler-personnage",
+   "title": "Faire parler un personnage IA",
+   "subtitle": "Voix, lip-sync, intention et charisme : donnez une vraie présence à vos personnages.",
+   "creatorId": "mariama-sow",
+   "price": 29000,
+   "niveau": "débutant",
+   "rating": 4.8,
+   "reviewsN": 186,
+   "students": 2180,
+   "hoursLabel": "4 h 15",
+   "lang": "Français",
+   "learn": [
+    "Définir une voix et un caractère stables",
+    "Écrire des répliques qui sonnent juste à l'oral",
+    "Synchroniser les lèvres et le regard",
+    "Diriger l'émotion : calme, colère, humour",
+    "Créer une présentatrice ou un hôte récurrent",
+    "Livrer un pack voix + visage réutilisable"
+   ],
+   "reviews": [
+    {
+     "name": "Awa N.",
+     "city": "Thiès",
+     "stars": 5,
+     "text": "Ma présentatrice a enfin une voix qui lui ressemble. Les exercices de répliques sont top."
+    },
+    {
+     "name": "David E.",
+     "city": "Lomé",
+     "stars": 4,
+     "text": "Clair et concret. J’aurais aimé un module de plus sur le wolof, mais les pistes sont là."
+    }
+   ],
+   "sections": [
+    {
+     "title": "Le personnage avant la technique",
+     "lessons": [
+      {
+       "id": "p1l1",
+       "title": "Qui parle, à qui, et pourquoi",
+       "min": 14
+      },
+      {
+       "id": "p1l2",
+       "title": "Charte de caractère en une page",
+       "min": 16
+      },
+      {
+       "id": "p1l3",
+       "title": "Choisir le timbre et le rythme",
+       "min": 18
+      }
+     ]
+    },
+    {
+     "title": "Écrire pour la bouche",
+     "lessons": [
+      {
+       "id": "p2l1",
+       "title": "Phrases courtes, souffle, silences",
+       "min": 20
+      },
+      {
+       "id": "p2l2",
+       "title": "Français parlé, wolof et alternance",
+       "min": 18
+      },
+      {
+       "id": "p2l3",
+       "title": "Atelier : 10 répliques d’ouverture",
+       "min": 22
+      }
+     ]
+    },
+    {
+     "title": "Voix et visage",
+     "lessons": [
+      {
+       "id": "p3l1",
+       "title": "Générer une voix stable",
+       "min": 20
+      },
+      {
+       "id": "p3l2",
+       "title": "Lip-sync : les bons réglages",
+       "min": 24
+      },
+      {
+       "id": "p3l3",
+       "title": "Regard, clignements, micro-gestes",
+       "min": 18
+      },
+      {
+       "id": "p3l4",
+       "title": "Corriger un personnage « plastique »",
+       "min": 16
+      }
+     ]
+    },
+    {
+     "title": "Mise en situation",
+     "lessons": [
+      {
+       "id": "p4l1",
+       "title": "Interview de plateau",
+       "min": 20
+      },
+      {
+       "id": "p4l2",
+       "title": "Pub 20 secondes",
+       "min": 14
+      },
+      {
+       "id": "p4l3",
+       "title": "Livrable final et charte",
+       "min": 16
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "monetiser-youtube",
+   "title": "Monétiser sa chaîne YouTube IA",
+   "subtitle": "Positionnement, rythme de publication, offres et premières rentrées en F CFA.",
+   "creatorId": "yves-adjovi",
+   "price": 39000,
+   "niveau": "débutant",
+   "rating": 4.9,
+   "reviewsN": 312,
+   "students": 3450,
+   "hoursLabel": "6 h 10",
+   "lang": "Français",
+   "learn": [
+    "Choisir un format qui peut durer 12 mois",
+    "Construire une chaîne lisible en 3 secondes",
+    "Publier sans s'épuiser : un calendrier réaliste",
+    "Comprendre la monétisation YouTube et ses limites",
+    "Vendre un produit digital autour de la chaîne",
+    "Lire ses chiffres et ajuster"
+   ],
+   "reviews": [
+    {
+     "name": "Fatou D.",
+     "city": "Dakar",
+     "stars": 5,
+     "text": "J’ai lancé mon premier pack le mois suivant le cours. Yves est très concret sur les prix en F CFA."
+    },
+    {
+     "name": "Ibrahim T.",
+     "city": "Cotonou",
+     "stars": 5,
+     "text": "Fini les conseils vagues. Le calendrier de 30 jours m'a débloqué."
+    },
+    {
+     "name": "Sarah M.",
+     "city": "Abidjan",
+     "stars": 4,
+     "text": "Excellent sur le positionnement. La partie pubs est un peu rapide, mais utile."
+    }
+   ],
+   "sections": [
+    {
+     "title": "Une chaîne qui se comprend",
+     "lessons": [
+      {
+       "id": "y1l1",
+       "title": "Promesse, public, preuve",
+       "min": 16
+      },
+      {
+       "id": "y1l2",
+       "title": "Nom, bannière, intro 8 secondes",
+       "min": 18
+      },
+      {
+       "id": "y1l3",
+       "title": "Études de chaînes francophones",
+       "min": 20
+      }
+     ]
+    },
+    {
+     "title": "Le rythme de création",
+     "lessons": [
+      {
+       "id": "y2l1",
+       "title": "Formats qui tiennent avec l’IA",
+       "min": 18
+      },
+      {
+       "id": "y2l2",
+       "title": "Batching et templates",
+       "min": 22
+      },
+      {
+       "id": "y2l3",
+       "title": "Calendrier 30 jours",
+       "min": 16
+      }
+     ]
+    },
+    {
+     "title": "YouTube et l'argent",
+     "lessons": [
+      {
+       "id": "y3l1",
+       "title": "Partenaire, pubs, seuils",
+       "min": 20
+      },
+      {
+       "id": "y3l2",
+       "title": "Ce que l’IA change (et ne change pas)",
+       "min": 16
+      },
+      {
+       "id": "y3l3",
+       "title": "Erreurs qui coûtent une chaîne",
+       "min": 14
+      }
+     ]
+    },
+    {
+     "title": "Vendre autour de la chaîne",
+     "lessons": [
+      {
+       "id": "y4l1",
+       "title": "De la vidéo au produit",
+       "min": 20
+      },
+      {
+       "id": "y4l2",
+       "title": "Prix en F CFA, Wave et Orange Money",
+       "min": 18
+      },
+      {
+       "id": "y4l3",
+       "title": "Page de vente simple",
+       "min": 22
+      },
+      {
+       "id": "y4l4",
+       "title": "Affiliation entre créateurs",
+       "min": 14
+      }
+     ]
+    },
+    {
+     "title": "Mesurer et durer",
+     "lessons": [
+      {
+       "id": "y5l1",
+       "title": "Les 6 chiffres qui comptent",
+       "min": 16
+      },
+      {
+       "id": "y5l2",
+       "title": "Itérer sans tout casser",
+       "min": 14
+      },
+      {
+       "id": "y5l3",
+       "title": "Plan d’action personnel",
+       "min": 18
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "emission-7j",
+   "title": "Réaliser une émission IA en 7 jours",
+   "subtitle": "Un plan jour par jour pour concevoir, générer, monter et publier votre première émission.",
+   "creatorId": "yves-adjovi",
+   "price": 49000,
+   "niveau": "débutant",
+   "rating": 4.9,
+   "reviewsN": 128,
+   "students": 3540,
+   "hoursLabel": "5 h 40",
+   "lang": "Français",
+   "learn": [
+    "Choisir un format d’émission réaliste en 48 h",
+    "Écrire un déroulé de 20 à 30 minutes",
+    "Générer plateau, invitée et habillage",
+    "Monter un premier épisode propre",
+    "Publier avec une miniature et un titre clairs",
+    "Préparer l'épisode 2 tout de suite"
+   ],
+   "reviews": [
+    {
+     "name": "Serge T.",
+     "city": "Lomé",
+     "stars": 5,
+     "text": "J’ai publié mon premier épisode le 7e jour, comme promis."
+    },
+    {
+     "name": "Aïcha B.",
+     "city": "Ouagadougou",
+     "stars": 5,
+     "text": "Enfin une formation qui parle de nos outils et de nos contraintes de connexion."
+    }
+   ],
+   "sections": [
+    {
+     "title": "Jour 1 — L'idée",
+     "lessons": [
+      {
+       "id": "e1l1",
+       "title": "Choisir un territoire",
+       "min": 14
+      },
+      {
+       "id": "e1l2",
+       "title": "Promesse en une phrase",
+       "min": 12
+      }
+     ]
+    },
+    {
+     "title": "Jour 2 — Le script",
+     "lessons": [
+      {
+       "id": "e2l1",
+       "title": "Déroulé 25 minutes",
+       "min": 20
+      },
+      {
+       "id": "e2l2",
+       "title": "Questions et transitions",
+       "min": 16
+      }
+     ]
+    },
+    {
+     "title": "Jour 3 — Le plateau",
+     "lessons": [
+      {
+       "id": "e3l1",
+       "title": "Décor et lumière",
+       "min": 18
+      },
+      {
+       "id": "e3l2",
+       "title": "Présentatrice ou hôte",
+       "min": 20
+      }
+     ]
+    },
+    {
+     "title": "Jour 4 — Les plans",
+     "lessons": [
+      {
+       "id": "e4l1",
+       "title": "Générer les séquences",
+       "min": 24
+      },
+      {
+       "id": "e4l2",
+       "title": "Raccords regard",
+       "min": 16
+      }
+     ]
+    },
+    {
+     "title": "Jour 5 — Le son",
+     "lessons": [
+      {
+       "id": "e5l1",
+       "title": "Voix, habillage, silence",
+       "min": 18
+      },
+      {
+       "id": "e5l2",
+       "title": "Générique court",
+       "min": 12
+      }
+     ]
+    },
+    {
+     "title": "Jour 6 — Le montage",
+     "lessons": [
+      {
+       "id": "e6l1",
+       "title": "Rythme et cartes titre",
+       "min": 22
+      },
+      {
+       "id": "e6l2",
+       "title": "Contrôle qualité",
+       "min": 14
+      }
+     ]
+    },
+    {
+     "title": "Jour 7 — La publication",
+     "lessons": [
+      {
+       "id": "e7l1",
+       "title": "Miniature, titre, description",
+       "min": 16
+      },
+      {
+       "id": "e7l2",
+       "title": "Lancer l'épisode 2",
+       "min": 12
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "talkshow-ia",
+   "title": "Diriger un talk-show IA",
+   "subtitle": "Conception d’un plateau, gestion des invités virtuels et rythme d’une émission d'entretiens.",
+   "creatorId": "awa-diop",
+   "price": 36000,
+   "niveau": "confirmé",
+   "rating": 4.8,
+   "reviewsN": 96,
+   "students": 890,
+   "hoursLabel": "5 h 00",
+   "lang": "Français",
+   "learn": [
+    "Concevoir un plateau crédible et chaleureux",
+    "Préparer une invitée IA cohérente",
+    "Écrire une interview qui respire",
+    "Couper, relancer, conclure",
+    "Créer une identité d’émission récurrente"
+   ],
+   "reviews": [
+    {
+     "name": "Ndeye F.",
+     "city": "Dakar",
+     "stars": 5,
+     "text": "On sent l'expérience du plateau. Les modèles de questions m'ont débloquée."
+    },
+    {
+     "name": "Karim B.",
+     "city": "Casablanca",
+     "stars": 4,
+     "text": "Très bon sur le rythme. Un peu dense au début, puis tout s’emboîte."
+    }
+   ],
+   "sections": [
+    {
+     "title": "L'émission comme un lieu",
+     "lessons": [
+      {
+       "id": "t1l1",
+       "title": "Trouver le ton de la maison",
+       "min": 16
+      },
+      {
+       "id": "t1l2",
+       "title": "Décors de plateau",
+       "min": 20
+      },
+      {
+       "id": "t1l3",
+       "title": "Générique et jingle",
+       "min": 14
+      }
+     ]
+    },
+    {
+     "title": "Les invités",
+     "lessons": [
+      {
+       "id": "t2l1",
+       "title": "Fiche invitée",
+       "min": 18
+      },
+      {
+       "id": "t2l2",
+       "title": "Continuité d’un visage invité",
+       "min": 20
+      },
+      {
+       "id": "t2l3",
+       "title": "Duo présentatrice / invité",
+       "min": 16
+      }
+     ]
+    },
+    {
+     "title": "L'art de l'entretien",
+     "lessons": [
+      {
+       "id": "t3l1",
+       "title": "Question ouverte, relance, silence",
+       "min": 22
+      },
+      {
+       "id": "t3l2",
+       "title": "Sujets sensibles, cadre respectueux",
+       "min": 16
+      },
+      {
+       "id": "t3l3",
+       "title": "Atelier : 20 minutes d’interview",
+       "min": 24
+      }
+     ]
+    },
+    {
+     "title": "Tourner et monter",
+     "lessons": [
+      {
+       "id": "t4l1",
+       "title": "Échelles de plans plateau",
+       "min": 16
+      },
+      {
+       "id": "t4l2",
+       "title": "Montage d’une séquence débat",
+       "min": 18
+      }
+     ]
+    },
+    {
+     "title": "Une émission qui dure",
+     "lessons": [
+      {
+       "id": "t5l1",
+       "title": "Rubriques récurrentes",
+       "min": 14
+      },
+      {
+       "id": "t5l2",
+       "title": "Calendrier d’une saison",
+       "min": 14
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prompts-video",
+   "title": "Prompts vidéo : de l'idée au plan",
+   "subtitle": "Une méthode simple pour écrire des prompts qui donnent de vrais plans de cinéma.",
+   "creatorId": "fatou-bamba",
+   "price": 18000,
+   "niveau": "débutant",
+   "rating": 4.7,
+   "reviewsN": 154,
+   "students": 1560,
+   "hoursLabel": "3 h 20",
+   "lang": "Français",
+   "learn": [
+    "Décrire un plan sans jargon inutile",
+    "Contrôler lumière, objectif et mouvement",
+    "Créer des variantes jour / nuit / intérieur",
+    "Construire une bibliothèque personnelle",
+    "Adapter un même prompt à plusieurs outils"
+   ],
+   "reviews": [
+    {
+     "name": "Moussa R.",
+     "city": "Bamako",
+     "stars": 5,
+     "text": "Les scènes de marché sont justes. Plus besoin de tout inventer."
+    },
+    {
+     "name": "Léa C.",
+     "city": "Dakar",
+     "stars": 4,
+     "text": "Très bon rapport qualité-prix, surtout pour démarrer."
+    }
+   ],
+   "sections": [
+    {
+     "title": "La grammaire du prompt",
+     "lessons": [
+      {
+       "id": "r1l1",
+       "title": "Sujet, lieu, lumière, action",
+       "min": 16
+      },
+      {
+       "id": "r1l2",
+       "title": "Ce qu'il ne faut pas écrire",
+       "min": 12
+      },
+      {
+       "id": "r1l3",
+       "title": "Atelier : 8 plans d’un marché",
+       "min": 20
+      }
+     ]
+    },
+    {
+     "title": "Style et outil",
+     "lessons": [
+      {
+       "id": "r2l1",
+       "title": "Réalisme, cinéma, animation",
+       "min": 16
+      },
+      {
+       "id": "r2l2",
+       "title": "Adapter selon l'outil",
+       "min": 18
+      }
+     ]
+    },
+    {
+     "title": "Bibliothèque personnelle",
+     "lessons": [
+      {
+       "id": "r3l1",
+       "title": "Classer ses prompts",
+       "min": 14
+      },
+      {
+       "id": "r3l2",
+       "title": "Variantes et versions",
+       "min": 16
+      },
+      {
+       "id": "r3l3",
+       "title": "Décors dakarois et abidjanais",
+       "min": 18
+      }
+     ]
+    },
+    {
+     "title": "Du plan à la séquence",
+     "lessons": [
+      {
+       "id": "r4l1",
+       "title": "Enchaîner 5 plans",
+       "min": 20
+      },
+      {
+       "id": "r4l2",
+       "title": "Mini-projet de fin",
+       "min": 22
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vendre-creations",
+   "title": "Vendre ses créations IA",
+   "subtitle": "Packager, pricer et vendre un scénario, une formation ou un service en F CFA.",
+   "creatorId": "yves-adjovi",
+   "price": 32000,
+   "niveau": "débutant",
+   "rating": 4.8,
+   "reviewsN": 74,
+   "students": 980,
+   "hoursLabel": "4 h 00",
+   "lang": "Français",
+   "learn": [
+    "Transformer un savoir-faire en offre claire",
+    "Fixer un prix en F CFA sans se brader",
+    "Rédiger une page de vente courte",
+    "Encaisser avec Wave ou Orange Money",
+    "Lancer les 10 premières ventes"
+   ],
+   "reviews": [
+    {
+     "name": "Rama G.",
+     "city": "Saint-Louis",
+     "stars": 5,
+     "text": "La grille de prix m'a évité de vendre trop bas. Merci."
+    },
+    {
+     "name": "Jules K.",
+     "city": "Lomé",
+     "stars": 4,
+     "text": "Pratique et direct. Idéal après avoir créé son premier pack."
+    }
+   ],
+   "sections": [
+    {
+     "title": "L'offre",
+     "lessons": [
+      {
+       "id": "v1l1",
+       "title": "Produit, service ou formation ?",
+       "min": 16
+      },
+      {
+       "id": "v1l2",
+       "title": "Promesse et livrable",
+       "min": 18
+      },
+      {
+       "id": "v1l3",
+       "title": "Nommer son offre",
+       "min": 12
+      }
+     ]
+    },
+    {
+     "title": "Le prix",
+     "lessons": [
+      {
+       "id": "v2l1",
+       "title": "Grille de prix en F CFA",
+       "min": 20
+      },
+      {
+       "id": "v2l2",
+       "title": "Ancrage et packs",
+       "min": 16
+      }
+     ]
+    },
+    {
+     "title": "La page de vente",
+     "lessons": [
+      {
+       "id": "v3l1",
+       "title": "Structure en 7 blocs",
+       "min": 22
+      },
+      {
+       "id": "v3l2",
+       "title": "Preuves et avis",
+       "min": 14
+      },
+      {
+       "id": "v3l3",
+       "title": "Atelier rédaction",
+       "min": 24
+      }
+     ]
+    },
+    {
+     "title": "Les premières ventes",
+     "lessons": [
+      {
+       "id": "v4l1",
+       "title": "Paiements locaux",
+       "min": 16
+      },
+      {
+       "id": "v4l2",
+       "title": "Publication 14 jours",
+       "min": 18
+      },
+      {
+       "id": "v4l3",
+       "title": "Après la vente : livraison",
+       "min": 14
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "TIPS": {
+  "awa-diop": [
+   {
+    "name": "Aminata S.",
+    "anonymous": false,
+    "amount": 2000,
+    "message": "Votre Café Téranga m’accompagne le matin. Merci de le laisser en gratuit.",
+    "date": "13 nov. 2026",
+    "method": "Wave"
+   },
+   {
+    "name": "Anonyme",
+    "anonymous": true,
+    "amount": 1000,
+    "message": "",
+    "date": "12 nov. 2026",
+    "method": "Orange Money"
+   },
+   {
+    "name": "Ibrahima N.",
+    "anonymous": false,
+    "amount": 5000,
+    "message": "Pour la série, et pour le plateau. Ça aide vraiment.",
+    "date": "11 nov. 2026",
+    "method": "Wave"
+   },
+   {
+    "name": "Khadija M.",
+    "anonymous": false,
+    "amount": 500,
+    "message": "Petit geste, grand plaisir.",
+    "date": "9 nov. 2026",
+    "method": "MTN MoMo"
+   },
+   {
+    "name": "Jean-Marc T.",
+    "anonymous": false,
+    "amount": 2000,
+    "message": "",
+    "date": "7 nov. 2026",
+    "method": "Carte"
+   }
+  ],
+  "malik-toure": [
+   {
+    "name": "Salimata K.",
+    "anonymous": false,
+    "amount": 1000,
+    "message": "Hâte de voir la suite des Sœurs de Plateau.",
+    "date": "10 nov. 2026",
+    "method": "Moov"
+   },
+   {
+    "name": "Anonyme",
+    "anonymous": true,
+    "amount": 2000,
+    "message": "",
+    "date": "4 nov. 2026",
+    "method": "Wave"
+   }
+  ],
+  "fatou-bamba": [
+   {
+    "name": "Oumar D.",
+    "anonymous": false,
+    "amount": 500,
+    "message": "Le marché de Colobane m’a fait rire. Merci pour le gratuit.",
+    "date": "8 nov. 2026",
+    "method": "Wave"
+   }
+  ],
+  "rama-fall": [
+   {
+    "name": "Aïcha B.",
+    "anonymous": false,
+    "amount": 1000,
+    "message": "Les enfants ont adoré le baobab parleur.",
+    "date": "6 nov. 2026",
+    "method": "Orange Money"
+   }
+  ]
+ }
+}
